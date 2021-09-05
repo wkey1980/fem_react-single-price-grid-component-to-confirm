@@ -1,10 +1,11 @@
 import './App.css';
+import Container from './components/Container/index';
 import './dist/css/style.css';
 
 function App() {
 	return (
 		<div className="app">
-			<h1>Hello World</h1>
+			<Container />
 		</div>
 	);
 }
